@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing:inherit;
+}
+
+body{
+    background-color: #1e252b;
+    color: #ffffff;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1437px;
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.header__inner{
+    margin-top: 30px;
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item{
+    display: flex;
+    gap: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.header__buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.header__btn{
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header__btn--activ{
+    background-color: #ff6e30;
+    color: #fdf5ff;
+}
+
+.header__btn--pasiv{
+    background-color: #1e252b;
+    color: #ffffffc7;
+}
+
+.communication__inner{
+    min-height: 570px;
+    background: url(../antools/img/Illustration2.png) no-repeat;
+    background-position: right;
+}
+
+.communication__title{
+    max-width: 600px;
+    max-height: 140px;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 110px;
+}
+
+.communication__text{
+    max-width: 487px;
+    max-height: 60px;
+    font-family: Poppins;
+    line-height: 1.67;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 30px;
+}
+
+
+
+.communication__item{
+    display: flex;
+    gap: 0 40px;
+    padding: 0;
+    margin-top: 120px;
+}
