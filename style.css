@@ -106,3 +106,41 @@ a{
     padding: 0;
     margin-top: 120px;
 }
+
+.cards{
+    max-width: 1224px;
+    min-height: 690px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cards__inner{
+    border: 1px solid red;
+    gap: 20px;
+    max-width: 392px;
+    min-height: 300px;
+    padding: 33px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cards__top{
+    display: flex;
+    gap: 30px;
+}
+
+.card__text{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.cards__menu{
+    display: flex;
+    gap: 60px;
+    
+}
